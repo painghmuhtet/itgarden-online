@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="my">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#071b16">
+<title>Myanmar Web Hosting, VPS & Dedicated Servers | IT Garden</title>
+<meta name="description" content="IT Garden Myanmar local hosting solutions. Shared web hosting, VPS, Node.js hosting, WordPress hosting and dedicated server hosting with NVMe SSD infrastructure. Plans from 200,000 MMK/year.">
+<link rel="canonical" href="https://itgarden.online/hosting/">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Noto+Sans+Myanmar:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#071b16;--panel:#0d2820;--panel2:#103329;--green:#b8f36b;--mint:#d9f8c0;--text:#f3f8f1;--muted:#a9bcb0;--line:rgba(220,255,230,.13);--max:1160px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:"DM Sans","Noto Sans Myanmar",sans-serif;line-height:1.75}a{color:inherit;text-decoration:none}.wrap{width:min(var(--max),calc(100% - 44px));margin:auto}
+.nav{height:82px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}.brand{display:flex;align-items:center;gap:12px;font-family:Manrope,sans-serif;font-weight:800;font-size:21px;letter-spacing:-.7px}.logo{width:39px;height:39px;border-radius:13px;background:var(--green);display:grid;place-items:center;color:#092018;font-weight:900;font-size:20px}.brand small{display:block;font:500 10px "DM Sans";letter-spacing:2px;color:var(--muted);text-transform:uppercase;margin-top:-4px}.navlinks{display:flex;gap:27px;color:#c3d2c7;font-size:14px}.navlinks a:hover{color:var(--green)}.navbtn,.btn{display:inline-flex;align-items:center;justify-content:center;border-radius:999px;padding:12px 21px;background:var(--green);color:#102318;font-weight:800;font-size:14px;transition:.2s}.navbtn:hover,.btn:hover{transform:translateY(-2px);background:#d0ff8c}
+.hero{padding:92px 0 74px;position:relative;overflow:hidden}.hero:after{content:"";position:absolute;width:560px;height:560px;border-radius:50%;background:radial-gradient(circle,rgba(153,236,91,.16),transparent 68%);right:-150px;top:-120px;pointer-events:none}.eyebrow,.kicker{color:var(--green);font-size:12px;letter-spacing:1.7px;text-transform:uppercase;font-weight:800}.eyebrow{display:inline-flex;gap:9px;align-items:center;border:1px solid rgba(184,243,107,.3);border-radius:999px;padding:7px 13px}.dot{width:7px;height:7px;border-radius:50%;background:var(--green);box-shadow:0 0 14px var(--green)}h1,h2,h3{font-family:Manrope,"Noto Sans Myanmar",sans-serif;line-height:1.2;letter-spacing:-1.2px}h1{font-size:clamp(42px,6.5vw,76px);max-width:900px;margin:25px 0 20px}h1 span{color:var(--green)}.lead{font-size:18px;color:#c0d0c4;max-width:760px;margin:0 0 30px}.hero-actions{display:flex;gap:13px;align-items:center;flex-wrap:wrap}.btn-outline{display:inline-flex;padding:11px 20px;border:1px solid var(--line);border-radius:999px;font-weight:700;font-size:14px}.btn-outline:hover{border-color:var(--green);color:var(--green)}.trustline{margin-top:48px;padding-top:20px;border-top:1px solid var(--line);display:flex;gap:22px;flex-wrap:wrap;color:var(--muted);font-size:13px}.trustline b{color:var(--mint)}
+.section{padding:76px 0}.head{max-width:760px;margin-bottom:32px}.section h2{font-size:clamp(32px,4vw,48px);margin:10px 0 14px}.intro{color:var(--muted);max-width:740px;margin:0}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.card{background:linear-gradient(145deg,var(--panel),#0a211a);border:1px solid var(--line);border-radius:22px;padding:25px;position:relative;overflow:hidden}.card h3{font-size:22px;margin:12px 0 8px}.card p{color:var(--muted);margin:0}.card .num{font-size:11px;letter-spacing:1.5px;color:var(--green);font-weight:800}.card .more{display:inline-block;margin-top:18px;color:var(--green);font-weight:700;font-size:13px}
+.pricing{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;align-items:stretch}.pricecard{background:var(--panel);border:1px solid var(--line);border-radius:23px;padding:28px;display:flex;flex-direction:column}.pricecard.featured{border-color:rgba(184,243,107,.7);box-shadow:0 0 0 1px rgba(184,243,107,.12)}.plan{color:var(--green);font-size:12px;font-weight:800;letter-spacing:1.5px}.price{font:800 clamp(30px,3vw,40px) Manrope,sans-serif;letter-spacing:-1.5px;margin:15px 0 0}.period{color:var(--muted);font-size:13px}.pricecard h3{font-size:21px;margin:20px 0 8px}.pricecard p{color:var(--muted);margin:0}.features{list-style:none;padding:0;margin:22px 0 25px;display:grid;gap:10px;color:#d5e3d8;font-size:14px}.features li:before{content:"✓";color:var(--green);font-weight:900;margin-right:9px}.pricecard .btn{margin-top:auto}.note{font-size:12px;color:#91a79a;margin-top:15px}
+.band{background:var(--green);color:#102219;padding:55px 0}.band .kicker{color:#34552a}.band h2{font-size:clamp(29px,4vw,46px);margin:12px 0;max-width:850px}.band p{color:#34513c;max-width:800px;margin:0}
+.points{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin-top:28px}.point{padding:22px;border:1px solid var(--line);border-radius:18px}.point strong{font-family:Manrope;font-size:17px}.point p{color:var(--muted);font-size:14px;margin:8px 0 0}
+.faq{display:grid;grid-template-columns:1fr 1fr;gap:12px}.faq article{border:1px solid var(--line);border-radius:16px;padding:20px}.faq h3{font-size:17px;margin:0 0 8px;letter-spacing:-.3px}.faq p{color:var(--muted);font-size:14px;margin:0}
+.contact{background:var(--panel);border:1px solid var(--line);border-radius:25px;padding:clamp(26px,5vw,50px);display:flex;align-items:center;justify-content:space-between;gap:28px}.contact h2{font-size:clamp(30px,4vw,45px);margin:10px 0}.contact p{color:var(--muted);max-width:650px;margin:0}
+footer{padding:30px 0 25px;border-top:1px solid var(--line);margin-top:78px;color:var(--muted);font-size:13px}.footrow{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}.back{color:var(--green)}
+@media(max-width:800px){.wrap{width:calc(100% - 34px)}.nav{height:72px}.navlinks{display:none}.hero{padding:68px 0 58px}.grid,.pricing,.points{grid-template-columns:1fr}.pricecard{padding:25px}.section{padding:60px 0}.faq{grid-template-columns:1fr}.contact{display:block}.contact .btn{margin-top:22px}}
+</style>
+</head>
+<body>
+<header class="wrap nav">
+<a class="brand" href="/" aria-label="IT Garden home"><span class="logo">G</span><span>IT Garden<small>Information & Technology</small></span></a>
+<nav class="navlinks"><a href="#plans">Hosting Plans</a><a href="#solutions">Solutions</a><a href="#why">Why IT Garden</a><a href="#faq">FAQ</a></nav>
+<a class="navbtn" href="#contact">Get started ↗</a>
+</header>
+<main>
+<section class="hero wrap">
+<div class="eyebrow"><span class="dot"></span> Myanmar Local Hosting</div>
+<h1>Your website deserves<br><span>a faster home.</span></h1>
+<p class="lead">မြန်မာနိုင်ငံအတွင်းရှိ သင့်လုပ်ငန်း Website၊ Online Store နဲ့ Web Application တွေအတွက် Local Hosting Solutions။ NVMe SSD အခြေခံ Server Infrastructure နဲ့ သင့် Project လိုအပ်ချက်အလိုက် Hosting ကို ရွေးချယ်နိုင်ပါတယ်။</p>
+<div class="hero-actions"><a class="btn" href="#plans">View hosting plans ↗</a><a class="btn-outline" href="#solutions">Explore hosting types</a></div>
+<div class="trustline"><span><b>Myanmar local</b> hosting environment</span><span><b>NVMe SSD</b> storage infrastructure</span><span><b>Scalable</b> hosting options</span></div>
+</section>
+
+<section class="section wrap" id="plans">
+<div class="head"><div class="kicker">Shared web hosting</div><h2>Start small. Grow with confidence.</h2><p class="intro">Personal Website ကနေ Business Website နဲ့ Online Store အထိ စတင်အသုံးပြုနိုင်မယ့် နှစ်စဉ် Shared Hosting Package များ။ ဈေးနှုန်းအားလုံးသည် တစ်နှစ်စာဖြစ်ပြီး MMK ဖြင့် ဖော်ပြထားပါသည်။</p></div>
+<div class="pricing">
+<article class="pricecard"><div class="plan">01 / SEED</div><div class="price">200,000 <span style="font-size:15px">MMK</span></div><div class="period">တစ်နှစ်စာ · 16,667 MMK / လနှုန်းခန့်</div><h3>သင့်ရဲ့ Online စတင်မှု</h3><p>Personal Website၊ Portfolio နဲ့ စတင်တည်ထောင်တဲ့ လုပ်ငန်း Website များအတွက်။</p><ul class="features"><li>Shared Web Hosting</li><li>NVMe SSD အခြေခံ Storage</li><li>Myanmar Local Hosting Network</li><li>Website Setup လမ်းညွှန်မှု</li><li>Plan မဝယ်မီ Resource အသေးစိတ် အတည်ပြုနိုင်ခြင်း</li></ul><a class="btn" href="#contact">Choose Seed ↗</a></article>
+<article class="pricecard featured"><div class="plan">02 / GROW · POPULAR</div><div class="price">300,000 <span style="font-size:15px">MMK</span></div><div class="period">တစ်နှစ်စာ · 25,000 MMK / လနှုန်း</div><h3>လုပ်ငန်းတိုးတက်မှုအတွက်</h3><p>Company Website၊ Service Website နဲ့ Content များ ပိုမိုတိုးချဲ့လိုသော လုပ်ငန်းများအတွက်။</p><ul class="features"><li>Shared Web Hosting</li><li>NVMe SSD အခြေခံ Storage</li><li>Myanmar Local Hosting Network</li><li>Website Migration အတွက် ကြိုတင်ညှိနှိုင်းနိုင်ခြင်း</li><li>အသုံးပြုမှုအလိုက် Resource စစ်ဆေးပေးခြင်း</li></ul><a class="btn" href="#contact">Choose Grow ↗</a></article>
+<article class="pricecard"><div class="plan">03 / BLOOM</div><div class="price">500,000 <span style="font-size:15px">MMK</span></div><div class="period">တစ်နှစ်စာ · 41,667 MMK / လနှုန်းခန့်</div><h3>ပိုမိုကြီးမားတဲ့ Project များအတွက်</h3><p>Business Website၊ Content များပြားသော Website နဲ့ Online Store များအတွက် အဆင့်မြင့်ရွေးချယ်မှု။</p><ul class="features"><li>Shared Web Hosting</li><li>NVMe SSD အခြေခံ Storage</li><li>Myanmar Local Hosting Network</li><li>Project လိုအပ်ချက်အလိုက် Setup ညှိနှိုင်းမှု</li><li>VPS သို့ Upgrade လုပ်ရန် အကြံပြုချက်</li></ul><a class="btn" href="#contact">Choose Bloom ↗</a></article>
+</div>
+<p class="note">မှတ်ချက် — Storage quota၊ CPU/RAM limits၊ website အရေအတွက်၊ email၊ backup နဲ့ control panel အသေးစိတ်ကို Order မတင်မီ သင့် Plan အတွက် စာဖြင့် အတည်ပြုပေးပါမည်။ ဤအချက်များကို မသတ်မှတ်ရသေးမီ Unlimited သို့မဟုတ် အာမခံချက်အဖြစ် မဖော်ပြထားပါ။</p>
+</section>
+
+<section class="band"><div class="wrap"><div class="kicker">Built for local visitors</div><h2>မြန်မာနိုင်ငံက Customer တွေအတွက် Local Hosting ရွေးချယ်မှု။</h2><p>ပြည်တွင်း ISP Network ကို အသုံးပြုတဲ့ Visitor များအတွက် Local Hosting Route ကို ရွေးချယ်နိုင်ပါတယ်။ တကယ့် Loading Speed က Visitor ရဲ့ ISP၊ Network Route၊ Website Code နဲ့ Server Load တို့အပေါ် မူတည်ပါတယ်။</p></div></section>
+
+<section class="section wrap" id="solutions">
+<div class="head"><div class="kicker">Hosting solutions</div><h2>One hosting platform. Different ways to build.</h2><p class="intro">Website သာမက Application နဲ့ ကိုယ်ပိုင် Server Environment လိုအပ်ချက်တွေအတွက်လည်း သင့် Project နဲ့ကိုက်ညီတဲ့ Hosting အမျိုးအစားကို ရွေးချယ်နိုင်ပါတယ်။</p></div>
+<div class="grid">
+<article class="card"><div class="num">01 / EASY START</div><h3>Shared Hosting</h3><p>Server Resources ကို မျှဝေအသုံးပြုတဲ့ Website Hosting။ Personal Website၊ Company Profile နဲ့ စတင်တဲ့ Online Business များအတွက် သင့်တော်ပါတယ်။</p><a class="more" href="#plans">View annual plans →</a></article>
+<article class="card"><div class="num">02 / MORE CONTROL</div><h3>Virtual Private Server</h3><p>ကိုယ်ပိုင် Virtual Server Environment၊ သီးသန့်ခွဲဝေထားတဲ့ Resources နဲ့ Server Configuration ပိုမိုထိန်းချုပ်လိုသူများအတွက်။</p><a class="more" href="#contact">Request VPS quotation →</a></article>
+<article class="card"><div class="num">03 / APP DEPLOYMENT</div><h3>Node.js Hosting</h3><p>Node.js၊ Express နဲ့ API အခြေခံ Web Application များကို Deploy လုပ်ရန်။ Runtime၊ Port နဲ့ Process လိုအပ်ချက်အလိုက် Setup ညှိနှိုင်းပေးပါမယ်။</p><a class="more" href="#contact">Discuss your app →</a></article>
+<article class="card"><div class="num">04 / CMS READY</div><h3>WordPress Hosting</h3><p>Business Website၊ Blog နဲ့ WordPress အခြေခံ Website များအတွက် သီးသန့် Setup နှင့် Migration လိုအပ်ချက်များကို ညှိနှိုင်းနိုင်ပါတယ်။</p><a class="more" href="#contact">Get WordPress hosting →</a></article>
+<article class="card"><div class="num">05 / FULL SERVER</div><h3>Dedicated Server Hosting</h3><p>Project တစ်ခုအတွက် Physical Server Resources ကို သီးသန့်အသုံးပြုလိုသော Business နဲ့ High-demand Application များအတွက်။</p><a class="more" href="#contact">Request dedicated server quote →</a></article>
+<article class="card"><div class="num">06 / CUSTOM</div><h3>Managed Setup & Migration</h3><p>လက်ရှိ Hosting မှ ပြောင်းရွှေ့ခြင်း၊ Server Environment ပြင်ဆင်ခြင်းနဲ့ Application Deployment လိုအပ်ချက်များကို ကြိုတင်ဆွေးနွေးနိုင်ပါတယ်။</p><a class="more" href="#contact">Talk to our team →</a></article>
+</div>
+</section>
+
+<section class="section wrap" id="why">
+<div class="head"><div class="kicker">Why IT Garden Hosting</div><h2>Performance starts with the right foundation.</h2></div>
+<div class="points">
+<div class="point"><strong>NVMe SSD Infrastructure</strong><p>NVMe SSD Storage ကို အခြေခံထားတဲ့ Server Infrastructure ဖြင့် File နဲ့ Database I/O လိုအပ်ချက်များကို ပံ့ပိုးရန် ရည်ရွယ်ထားပါတယ်။</p></div>
+<div class="point"><strong>Myanmar Local Network</strong><p>ပြည်တွင်း Visitor များအတွက် Local ISP Network ပေါ်တွင် Hosting အသုံးပြုနိုင်မယ့် ရွေးချယ်မှု။</p></div>
+<div class="point"><strong>Choose the Right Scale</strong><p>Shared Hosting မှ VPS နဲ့ Dedicated Server အထိ Project ကြီးထွားလာမှုအလိုက် ရွေးချယ်နိုင်ပါတယ်။</p></div>
+</div>
+</section>
+
+<section class="section wrap" id="faq">
+<div class="head"><div class="kicker">Frequently asked questions</div><h2>Before you choose a plan.</h2></div>
+<div class="faq">
+<article><h3>Myanmar Local Hosting ဆိုတာဘာလဲ?</h3><p>Hosting Server ကို ပြည်တွင်း Network Infrastructure မှတစ်ဆင့် အသုံးပြုနိုင်တဲ့ Hosting ပုံစံဖြစ်ပါတယ်။ Visitor ရဲ့ ISP နဲ့ Network Route အပေါ်မူတည်ပြီး အတွေ့အကြုံကွာခြားနိုင်ပါတယ်။</p></article>
+<article><h3>Shared Hosting နဲ့ VPS ဘာကွာလဲ?</h3><p>Shared Hosting မှာ Server Resources ကို အခြား Website များနဲ့ မျှဝေသုံးစွဲပါတယ်။ VPS ကတော့ Virtual Server Environment နဲ့ ခွဲဝေထားတဲ့ Resources ကို ပိုမိုထိန်းချုပ်နိုင်ပါတယ်။</p></article>
+<article><h3>Node.js Application တင်လို့ရမလား?</h3><p>ရပါတယ်။ Application ရဲ့ Node.js Version၊ Process၊ Port နဲ့ Resource လိုအပ်ချက်တွေကို စစ်ဆေးပြီး သင့်တော်တဲ့ Hosting ကို အတည်ပြုပေးပါမယ်။</p></article>
+<article><h3>WordPress Website ပြောင်းရွှေ့လို့ရမလား?</h3><p>Migration လုပ်နိုင်မှုကို လက်ရှိ Hosting၊ Website Size နဲ့ Database အခြေအနေအပေါ် မူတည်ပြီး ကြိုတင်စစ်ဆေးညှိနှိုင်းပေးပါမယ်။</p></article>
+<article><h3>ဈေးနှုန်းထဲမှာ ဘာတွေပါဝင်သလဲ?</h3><p>ဖော်ပြထားတဲ့ဈေးနှုန်းက တစ်နှစ်စာ Hosting Fee ဖြစ်ပါတယ်။ Domain၊ Email၊ Backup၊ Control Panel License နဲ့ Migration စတဲ့ အပိုဝန်ဆောင်မှုများ ပါဝင်မှုကို Order မတင်မီ စာဖြင့် အတည်ပြုပါမယ်။</p></article>
+<article><h3>VPS နဲ့ Dedicated Server ဈေးနှုန်းဘယ်လောက်လဲ?</h3><p>CPU၊ RAM၊ NVMe Storage၊ Bandwidth၊ IP နဲ့ Operating System လိုအပ်ချက်အလိုက် သီးခြား Quote ပေးပါမယ်။</p></article>
+</div>
+</section>
+
+<section class="section wrap" id="contact"><div class="contact"><div><div class="kicker">Let's host your next project</div><h2>Ready to put your website online?</h2><p>သင့် Website သို့မဟုတ် Application ရဲ့ လိုအပ်ချက်ကို ပြောပြပါ။ သင့်တော်တဲ့ Hosting အမျိုးအစားနဲ့ Resource အသေးစိတ်ကို အရင်ညှိနှိုင်းပြီးမှ Plan ကို အတည်ပြုပေးပါမယ်။</p></div><a class="btn" href="mailto:hello@itgarden.online?subject=IT%20Garden%20Hosting%20Enquiry">Request a hosting quote ↗</a></div></section>
+</main>
+<footer><div class="wrap footrow"><a class="brand" href="/"><span class="logo">G</span><span>IT Garden<small>Information & Technology</small></span></a><span>© 2026 IT Garden · <a class="back" href="/">Back to main website</a></span></div></footer>
+</body></html>
